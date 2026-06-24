@@ -1,0 +1,30 @@
+.circular-text {
+  position: relative;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  font-size: 10px; /* Highly precise and premium scale */
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #10b981; /* Premium emerald color */
+  text-shadow: 0 0 12px rgba(16, 185, 129, 0.5); /* Glowing effect */
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  transform-origin: center center;
+}
+
