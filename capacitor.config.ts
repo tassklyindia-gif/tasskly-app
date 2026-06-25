@@ -5,7 +5,9 @@ const config: CapacitorConfig = {
   appName: 'Tasskly',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'https',
+    url: 'http://192.168.1.109:8080',
+    cleartext: true
   }
 };
 
